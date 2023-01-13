@@ -242,7 +242,7 @@ function Home() {
   return (
   <div class="container-fluid">
     <div className="side-nav">
-      <div onClick={logoutHandler}>Logout</div>
+      <div onClick={logoutHandler}>logout</div>
     
     </div>
     <div className="center-body">
