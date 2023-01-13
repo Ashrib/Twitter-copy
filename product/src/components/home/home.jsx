@@ -236,15 +236,15 @@ function Home() {
   
 
 
-  
-
-  
 
 
 
   return (
   <div class="container-fluid">
-    <div className="side-nav">nav</div>
+    <div className="side-nav">
+      <div onClick={logoutHandler}>logout</div>
+    
+    </div>
     <div className="center-body">
       <div className="create-tweet-div">
         <div className='prf-img'></div>
