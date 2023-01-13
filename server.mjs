@@ -17,9 +17,9 @@ import sgMail from "@sendgrid/mail"
 
 
 
-const SECRET = process.env.SECRET || "mySecret"
-const app = express()
-const port = process.env.PORT || 3000
+const SECRET = process.env.SECRET || "mySecret";
+const app = express();
+const port = process.env.PORT || 3000;
 const mongodbURI = process.env.mongodbURI || "mongodb+srv://dbuser1:123mypassword@cluster0.m20zxpk.mongodb.net/dbuser1?retryWrites=true&w=majority"
 mongoose.connect(mongodbURI);
 app.use(express.json());
@@ -148,4 +148,3 @@ app.use('*', express.static(path.join(__dirname, './product/build')))
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
-

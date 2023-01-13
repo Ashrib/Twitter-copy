@@ -12,7 +12,7 @@ if (window.location.href.split(":")[0] === "http") {
   baseUrl = "http://localhost:3000";
 }
 else{
-  baseUrl = "https://prickly-bikini-clam.cyclic.app"
+  baseUrl = "https://delightful-houndstooth-seal.cyclic.app"
 }
 
 function Login() {

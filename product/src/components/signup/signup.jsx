@@ -11,7 +11,7 @@ if (window.location.href.split(":")[0] === "http") {
   
 }
 else{
-    baseUrl = "https://prickly-bikini-clam.cyclic.app"
+    baseUrl = "https://delightful-houndstooth-seal.cyclic.app"
   }
 
 function Signup() {
@@ -75,7 +75,7 @@ function Signup() {
           </div>
 
             <div className='content-div'>
-                <h3>Register Yourself</h3>
+                <h3>Register</h3>
                 <form onSubmit={signUpHandler}>
                     <div className="names-inp">
                         <input ref={firstRef} type="text" placeholder="First Name" required onChange={(e) =>{
